@@ -18,3 +18,4 @@ document.querySelectorAll('.btn-buy').forEach(button => {
     });
 });
 </script>
+</body>.
