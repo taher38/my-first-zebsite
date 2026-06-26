@@ -32,28 +32,16 @@
     <section class="store-section" id="store">
         <h2>أحدث إصداراتنا 📖</h2>
         
-        <div id="payment-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-btn" onclick="closeModal()">&times;</span>
-        <h2>📝 إتمام طلب الشراء (الدفع عند الاستلام)</h2>
-        <p id="selected-book-title" style="font-weight: bold; color: #a16207; margin-bottom: 15px;"></p>
-        
-        <form action="https://formspree.io/f/your_form_id" method="POST">
-            <input type="hidden" name="الكتاب المطلوب" id="book-input">
+        <div class="book-grid">
             
-            <label>اسمك الكامل:</label>
-            <input type="text" name="الاسم" required placeholder="أدخل اسمك الثلاثي">
-            
-            <label>رقم الهاتف (واتساب):</label>
-            <input type="tel" name="الهاتف" required placeholder="05xxxxxxxx">
-            
-            <label>عنوان الشحن بالتفصيل:</label>
-            <textarea name="العنوان" required placeholder="المدينة، الحي، اسم الشارع"></textarea>
-            
-            <button type="submit" class="btn-confirm">تأكيد الطلب وشحن الكتاب 🚚</button>
-        </form>
-    </div>
-</div>
+            <!-- الكتاب الأول -->
+            <div class="book-card">
+                <div class="book-cover">📘</div>
+                <h3>أسرار النجاح المالي</h3>
+                <p class="author">تأليف: أحمد المنصور</p>
+                <p class="price">15.00 $</p>
+                <button class="btn-buy">شراء الآن</button>
+            </div>
 
             <!-- الكتاب الثاني -->
             <div class="book-card">
