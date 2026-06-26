@@ -3,53 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>واجهة موقعي الاحترافية</title>
+    <title>مكتبة الإبداع - معرض الكتب الرقمي</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- شريط التنقل العلوي -->
+    <!-- شريط العلوي للمكتبة -->
     <nav class="navbar">
-        <div class="logo">موقعي المميز</div>
+        <div class="logo">📚 مكتبة الإبداع</div>
         <ul class="nav-links">
             <li><a href="#" class="active">الرئيسية</a></li>
-            <li><a href="#">خدماتنا</a></li>
+            <li><a href="#">كتب فريدة</a></li>
+            <li><a href="#">الأكثر مبيعاً</a></li>
             <li><a href="#">من نحن</a></li>
-            <li><a href="#">اتصل بنا</a></li>
         </ul>
     </nav>
 
-    <!-- القسم الرئيسي (Hero Section) -->
+    <!-- واجهة ترحيبية -->
     <header class="hero">
         <div class="hero-content">
-            <h1>مرحباً بك في عالم الإبداع الرقمي</h1>
-            <p>نحن هنا لمساعدتك في بناء وتطوير أفكارك وتحويلها إلى واقع ملموس بأحدث التقنيات.</p>
-            <a href="#" class="btn-main">اكتشف المزيد</a>
+            <h1>خير جليس في الزمان كتاب</h1>
+            <p>اكتشف مجموعتنا المختارة من الكتب الروايات، والتطوير الذاتي، والعلوم بأفضل الأسعار.</p>
+            <a href="#store" class="btn-main">تصفح المعرض الآن</a>
         </div>
     </header>
 
-    <!-- قسم البطاقات (Features) -->
-    <section class="features">
-        <div class="card">
-            <div class="icon">💻</div>
-            <h3>تصميم عصري</h3>
-            <p>واجهات مريحة للمستخدم ومتوافقة مع جميع الشاشات والهواتف الذكية.</p>
-        </div>
-        <div class="card">
-            <div class="icon">⚡</div>
-            <h3>سرعة فائقة</h3>
-            <p>أكواد نظيفة ومحسنّة لضمان تصفح سريع وسلس بدون أي تأخير.</p>
-        </div>
-        <div class="card">
-            <div class="icon">🔒</div>
-            <h3>أمان عالي</h3>
-            <p>حماية كاملة لبياناتك وبيانات زوار موقعك بأعلى معايير الأمان.</p>
+    <!-- قسم معرض الكتب -->
+    <section class="store-section" id="store">
+        <h2>أحدث إصداراتنا 📖</h2>
+        
+        <div class="book-grid">
+            
+            <!-- الكتاب الأول -->
+            <div class="book-card">
+                <div class="book-cover">📘</div>
+                <h3>أسرار النجاح المالي</h3>
+                <p class="author">تأليف: أحمد المنصور</p>
+                <p class="price">15.00 $</p>
+                <button class="btn-buy">شراء الآن</button>
+            </div>
+
+            <!-- الكتاب الثاني -->
+            <div class="book-card">
+                <div class="book-cover" style="background: #e11d48;">📕</div>
+                <h3>رواية خلف الأفق</h3>
+                <p class="author">تأليف: سارة عبد الله</p>
+                <p class="price">12.50 $</p>
+                <button class="btn-buy">شراء الآن</button>
+            </div>
+
+            <!-- الكتاب الثالث -->
+            <div class="book-card">
+                <div class="book-cover" style="background: #16a34a;">🟢</div>
+                <h3>قوة التركيز العالي</h3>
+                <p class="author">تأليف: د. خالد وليد</p>
+                <p class="price">18.00 $</p>
+                <button class="btn-buy">شراء الآن</button>
+            </div>
+
+            <!-- الكتاب الرابع -->
+            <div class="book-card">
+                <div class="book-cover" style="background: #d97706;">📙</div>
+                <h3>تاريخ الحضارات المنسية</h3>
+                <p class="author">تأليف: أ. محمود شاكر</p>
+                <p class="price">20.00 $</p>
+                <button class="btn-buy">شراء الآن</button>
+            </div>
+
         </div>
     </section>
 
     <!-- تذييل الصفحة -->
     <footer>
-        <p>جميع الحقوق محفوظة © 2026 | صُنِع بشغف</p>
+        <p>جميع الحقوق محفوظة © 2026 | مكتبة الإبداع لبيع الكتب</p>
     </footer>
 
 </body>
